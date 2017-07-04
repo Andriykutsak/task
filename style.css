@@ -38,3 +38,23 @@ input[type="submit"]{
 	color: #fff;
 	background-color: #337ab7;
 }
+p{
+	font-family: roboto;
+	font-size: 17px;
+	line-height: 25px;
+}
+img{
+	padding-left: 40px;
+}
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+h2{
+	margin-bottom: 30px;
+}
+.footer-bg{
+	padding: 10px 0;
+	color: #fff;
+	background-color: #000;
+}
