@@ -1,48 +1,40 @@
-
-
-/*video background*/
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
+header{
+	background-image: url('img/head-bg.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
 }
-.no-video .video-container video,
-.touch .video-container video {
-    display: none;
+.navbar{
+	margin-bottom: 0px;
 }
-.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
+.head-bg-filter{
+	padding: 50px 100px;
+	background-color: rgba(0, 0, 0, 0.6);
 }
-.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-    -webkit-background-size: cover;
-    background-size: cover;
+.head{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
 }
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-    -webkit-background-size: cover;
-    background-size: cover;
+.form-wrap{
+	max-width: 600px;
+	margin: 0 auto;
+	
 }
-.video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
+input{
+	width: 300px;
+	margin: 20px auto;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
-.video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
+input:focus{
+		background-color: rgba(255, 255, 255, 0.7);
 }
-.video-container video.fillWidth {
-    width: 100%;
+input[type="submit"]{
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #337ab7;
 }
