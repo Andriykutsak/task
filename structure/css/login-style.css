@@ -1,0 +1,43 @@
+.head-bg{
+	padding: 20px;
+	background-color: #000;
+}
+.logotype{
+	font-size: 1.5em;
+	color: #fff;
+}
+
+
+.login-block{
+	border-bottom: 1px solid #000;
+}
+.login-block input[type="text"],input[type="password"]{
+	margin: 5px 0;
+	border-radius: 10px;
+	border: 2px solid #eee;
+	transition: 0.3s;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+	border: 3px solid #337ab7;
+}
+input[type="submit"]{
+	padding: 10px 20px;
+	margin: 20px auto; 
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 15px;
+}
+.login-btn{
+	background-color: #337ab7;
+}
+.reg-btn{
+	background-color: #3c763d;
+}
+.bg-footer{
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.2em; 
+}
