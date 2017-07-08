@@ -11,14 +11,20 @@
 .login-block{
 	border-bottom: 1px solid #000;
 }
-.login-block input[type="text"],input[type="password"]{
+.baner{
+	height: 200px;
+	background-image: url('../img/baner.jpg');
+}
+input[type="text"],input[type="password"]{
 	margin: 5px 0;
+	padding: 5px 10px;
+	width: 90%;
 	border-radius: 10px;
 	border: 2px solid #eee;
-	transition: 0.3s;
+	
 }
 input[type="text"]:focus,input[type="password"]:focus{
-	border: 3px solid #337ab7;
+	border: 3px solid #ffa400;
 }
 input[type="submit"]{
 	padding: 10px 20px;
@@ -27,13 +33,19 @@ input[type="submit"]{
 	font-weight: bold;
 	text-transform: uppercase;
 	border: none;
-	border-radius: 15px;
+	border-radius: 3px;
 }
 .login-btn{
 	background-color: #337ab7;
 }
 .reg-btn{
 	background-color: #3c763d;
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 }
 .bg-footer{
 	padding: 20px;
