@@ -29,7 +29,7 @@
 			</div>
 			<div class="col-sm-offset-1 col-sm-4">
 				<div class="login-block">
-					<form action=".../php/authorethation.php" method="POST" id="login-form">
+					<form action="/php/login.php" method="POST" id="login-form">
 						<input type="text" placeholder="E-mail" name="login-Email" id="Email">
 						<input type="password" placeholder="Пароль" name="login-password" id="Password">
 						<br>
@@ -37,13 +37,10 @@
 					</form>
 				</div>
 				<div class="reistration-block">
-					<form action="">
-						<input type="text" placeholder="Ваше імя">
-						<input type="text" placeholder="Ваша фамілія">
-						<input type="text" placeholder="Ваш логін">
-						<input type="text" placeholder="Ваш E-mail">
-						<input type="password" placeholder="Пароль">
-						<input type="password" placeholder="Повторіть пароль ще раз">
+					<form action="php/registration.php" method="POST">
+						<input type="text" placeholder="Ваш логін" name="login">
+						<input type="password" placeholder="Пароль" name="password">
+						<input type="password" placeholder="Повторіть пароль ще раз" name="password2">
 						<br>
 						<input type="submit" value="Реєстрація" class="reg-btn">
 					</form>
@@ -79,7 +76,12 @@
 			$('#login-form').submit(function(event) {
 			 	/* Act on the event */check();
 			 }); 
-		});	
+		});
+		function a() {
+			var i=1;
+			return !i;  
+		}
+		console.log(a());
 	</script>
 </body>
 </html>
